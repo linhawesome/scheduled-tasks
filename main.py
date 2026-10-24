@@ -12,7 +12,7 @@ import random
 import smtplib
 import os
 
-ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=True
 
 # import os and use it to get the Github repository secrets
 MY_EMAIL = os.environ.get("MY_EMAIL")
